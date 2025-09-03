@@ -45,3 +45,33 @@ body{
     display: inline-block;
     margin-bottom: 30px;
 }
+
+.section-card{
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 920px;
+    gap: 15px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.section-card__bloco {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section-card__text{
+    color: white;
+    background-color: black;
+    padding: 4px;
+    width: 100%;
+}
+
+img{
+    width: 250px;
+}
