@@ -8,7 +8,7 @@
 }
 
 body, html{
-    height: 100%;
+    min-height: 100%;
 }
 
 body{
@@ -52,26 +52,26 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    max-width: 920px;
-    gap: 15px;
-    margin: 0 auto;
+    width: 920px;
+    gap: 16px;
+    margin: auto;
     padding: 12px;
 }
 
 .section-card__bloco {
+    flex-basis: 250px;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
-    align-items: flex-start;
+    flex-grow: 1;
 }
 
 .section-card__text{
     color: white;
     background-color: black;
-    padding: 4px;
-    width: 100%;
+    padding: 8px;
+    margin: 0;
 }
 
-img{
-    width: 250px;
+.section-card__bloco img{
+    width: 100%;
 }
