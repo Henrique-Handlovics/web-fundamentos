@@ -1,1 +1,87 @@
-/* Escreva aqui as suas folhas de estilo */
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+.viaoda-libre-regular {
+    font-family: "Viaoda Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header-principal{
+    background-color: #162028;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.title-logo{
+    color: white;
+    font-family: "Viaoda Libre", serif;
+    font-size: 3.2em;
+}
+
+.header-nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 3.4em;
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: #425564;
+}
+
+.poster-topo{
+    background-image: url(../imagens/topo.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    height: 600px;
+}
+
+.text-title{
+    font-family: "Viaoda Libra", serif;
+    font-size: 2.6em;
+}
+
+.content-one{
+    margin-top: 8em;
+    text-align: center;
+}
+
+.content-modelos{
+
+}
+
+.fotos-modelos{
+
+}
+
+.content-two{
+
+}
+
+.footer-pagina{
+    background-color: #0b171f;
+    color: #6f8597;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 1.6em;
+}
