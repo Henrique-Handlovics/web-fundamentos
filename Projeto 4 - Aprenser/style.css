@@ -156,3 +156,31 @@ nav a{
     border-radius: 0 0 8px 8px;
     border-top: transparent;
 }
+
+.escola{
+    display: flex;
+    gap: 7rem;
+    padding-top: 6rem;
+}
+
+.escola-title{
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+
+.escola p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.contatos_adress{
+    text-align: right;
+    font: normal 400 1.8rem "Inter, sans-serif";
+    padding: 3rem 0;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 4.5rem;
+}
