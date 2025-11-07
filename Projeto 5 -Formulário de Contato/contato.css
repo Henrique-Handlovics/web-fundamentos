@@ -43,6 +43,7 @@ textarea{
     border-bottom-color: #ccc ;
     padding: .75em;
     margin: .5em 0 2.5em;
+    color: white;
 }
 
 legend{
