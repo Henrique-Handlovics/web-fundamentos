@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-        <fieldset>
-            <legend>Login</legend>
-            <label for="user">Usuário
-                <input type="text" name="user" id="user">
+    <form action="#" autocomplete="off" method="get" class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__title">Login</legend>
+            <label for="user" class="form__label">Usuário
+                <input type="text" name="user" id="user" class="form__input" required>
             </label>
 
-            <label for="senha">Senha
-                <input type="password" name="senha" id="senha">
+            <label for="senha" class="form__label">Senha
+                <input type="password" name="senha" id="senha" class="form__input" required>
             </label>
         </fieldset>
 
-        <div>
-            <button type="submit" class="btn">Login</button>
-            <a href="cadastro.html" class="btn-cadastro">Cadastra-se</a>
-            <a href="#" class="Esqueci">Esqueci minha senha</a>
+        <div class="form__action">
+            <input type="submit" value="Login" class="btn btn-primary">
+            <a href="cadastro.html" class="btn btn-secondary">Cadastra-se</a>
+            <a href="#" class="esqueci">Esqueci minha senha</a>
         </div>
     </form>
 </body>

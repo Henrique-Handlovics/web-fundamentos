@@ -18,64 +18,88 @@ body{
     min-height: 100vh;
 }
 
-form{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
+.form{
     background-color: white;
     border-left: 6px solid rgb(100, 149, 237, .9);
     padding: 24px;
     font-family: 'Courier New', Courier, monospace;
-    text-transform: uppercase;
     min-width: 350px;
-    max-width: 450px;
-    width: 90%;
+    max-width: 480px;
+    width: 80%;
 }
 
-fieldset{
+.form__fieldset{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
     border: none;
     gap: 10px;
+    padding: 1rem;
 }
 
-input{
+.form__input{
     width: 100%;
     border: none;
-    border-bottom: 1px solid black;
+    border-radius: 0;
+    border-bottom: 1px solid var(--cor-principal);
     margin-bottom: 10px;
+    padding: .5em 0;
+    font-size: 1.2rem;
+    outline: none;
+    transition: padding-left .08s;
 }
 
-legend{
+.form__input:focus{
+    outline: 2px solid var(--cor-principal);
+    padding-left: .3rem;
+}
+
+.form__title{
     color: var(--cor-principal);
     font-weight: bold;
     font-size: 1.7em;
     margin-bottom: 10px;
+    padding-top: 2rem;
 }
 
-div{
+.form__label{
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.form__action{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .btn{
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: .8rem 1.2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.btn-primary{
     background-color: var(--cor-principal);
     color: white;
-    border: none;
-    border-radius: 2px;
-    padding: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
-.btn-cadastro {
-    text-decoration: none;
-    padding: 12px;
-    font-weight: bold;
+.btn-secondary{
+    color: var(--cor-principal);
 }
 
-a.Esqueci{
-    display: block;
+.esqueci{
     text-align: right;
+    font-size: .85rem;
+    flex-grow: 1;
+    text-align: right;
+}
+
+p{
     text-transform: none;
-    font-size: 14px;
 }
